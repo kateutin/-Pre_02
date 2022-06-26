@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/page">
+
+    <TextView
+        android:id="@+id/Titletext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="2022.05.13\n 주문번호 123456789"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/Mainimage1"
+            android:layout_width="100dp"
+            android:layout_height="68dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/food" />
+
+        <TextView
+            android:id="@+id/Menu1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" [드시온] 어떡하죠 국물떡볶이 4봉지\n수량:1\n30,000원 36,000원"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:textSize="15sp">
+
+        <ImageView
+            android:id="@+id/Mainimage2"
+            android:layout_width="100dp"
+            android:layout_height="54dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/food" />
+
+        <TextView
+            android:id="@+id/Menu2"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_weight="1"
+            android:text=" [드시온] 어떡하죠 국물떡볶이 4봉지\n수량:1\n30,000원 36,000원"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/User"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="취소 사유"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="단순 변심"
+        android:textSize="10dp"
+        android:textStyle="bold">
+
+    </CheckBox>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="상품 불량"
+        android:textStyle="bold"
+        android:textSize="10dp">
+    </CheckBox>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가격이 불만족 스러움"
+        android:textStyle="bold"
+        android:textSize="10dp">
+    </CheckBox>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="상품이 마음에 들지 않음"
+        android:textStyle="bold"
+        android:textSize="10dp">
+    </CheckBox>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="오배송"
+        android:textStyle="bold"
+        android:textSize="10dp">
+    </CheckBox>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="기타"
+        android:textStyle="bold"
+        android:textSize="10dp">
+    </CheckBox>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/edit_box"
+        android:hint="환불 및 취소 사유를 입력해 주세요"
+        android:textColorHint="#757575"/>
+
+
+    <TextView
+        android:id="@+id/Butten"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/radius"
+        android:gravity="center"
+        android:text="등록하기"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
