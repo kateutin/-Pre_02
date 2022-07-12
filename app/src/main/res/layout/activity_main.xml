@@ -73,75 +73,79 @@
         android:text="취소 사유"
         android:textSize="20dp"
         android:textStyle="bold"/>
-
-    <CheckBox
-
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="단순 변심"
         android:textSize="10dp"
         android:textStyle="bold">
 
-    </CheckBox>
+    </RadioButton>
 
-    <CheckBox
+    <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="상품 불량"
         android:textStyle="bold"
         android:textSize="10dp">
-    </CheckBox>
+    </RadioButton>
 
-    <CheckBox
+    <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="가격이 불만족 스러움"
         android:textStyle="bold"
         android:textSize="10dp">
-    </CheckBox>
+    </RadioButton>
 
-    <CheckBox
+    <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="상품이 마음에 들지 않음"
         android:textStyle="bold"
         android:textSize="10dp">
-    </CheckBox>
+    </RadioButton>
 
-    <CheckBox
+    <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="오배송"
         android:textStyle="bold"
         android:textSize="10dp">
-    </CheckBox>
+    </RadioButton>
 
-    <CheckBox
+    <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:text="기타"
         android:textStyle="bold"
         android:textSize="10dp">
-    </CheckBox>
+    </RadioButton>
+ </RadioGroup>
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="79dp"
         android:background="@drawable/edit_box"
         android:hint="환불 및 취소 사유를 입력해 주세요"
-        android:textColorHint="#757575"/>
+        android:textColor="@color/white" />
 
 
     <TextView
         android:id="@+id/Butten"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="77dp"
         android:background="@drawable/radius"
         android:gravity="center"
         android:text="등록하기"
         android:textColor="@color/white"
         android:textSize="20dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
 </LinearLayout>
